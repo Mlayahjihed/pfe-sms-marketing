@@ -1,0 +1,60 @@
+.main{
+background-image: url(./images/aa.png);
+background-size: cover;
+width: 100%;
+height: 800px;
+}
+.pargg{
+padding-top: 10%;
+padding-right:30% ;
+padding-left:40%;
+width: 100%;
+height: 800px;
+color: rgb(255, 251, 251);
+background-color: rgba(0, 0, 0, 0.79);
+align-items: center;
+
+}
+h1{
+padding-left: 80px;
+
+}
+.h{
+    padding-left: 15px;
+}
+.r{
+padding-left: 90px;
+
+
+}
+.buttonn{
+
+    border-radius: 4px;
+    background: white;
+    width: 250px;
+	white-space: nowrap;
+	
+	font-size: 16px;
+	color: #111111;
+	outline: none;
+	border: 2px solid #fff;
+	cursor: pointer;
+	overflow: hidden;
+	position: relative;
+    border-radius: 15px;
+    height: 70px;
+    
+    
+	
+
+}
+.btnn{
+
+    padding-left: 100px;
+}
+.buttonn:hover {
+    background-color: black ;
+    color: white;
+    font-size: 1.5rem;
+  
+}

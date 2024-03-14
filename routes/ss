@@ -1,0 +1,7 @@
+try {
+
+        
+        await planfie({date,entet,msg,num});
+        res.status(200).json({ success: true, data: "message planifié avec succés" });
+    } catch (error) {
+        res.status(502).json({ success: false, data: "probléme" });}

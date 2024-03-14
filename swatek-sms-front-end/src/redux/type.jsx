@@ -1,0 +1,29 @@
+export const SET_USER ="SET_USER";
+export const ERRORS ="ERRORS";
+export const SET_PROFILE = "SET_PROFILE";
+export const SET_PROFILES = "SET_PROFILES";
+export const DELETE_PROFILE = "DELETE_PROFILE";
+export const SET_MSGS = "SET_MSGS";
+export const DELETE_MSGS = "DELETE_MSGS";
+export const SET_FORS ="SET_FORS";
+export const SET_FOR ="SET_FOR";
+export const DELETE_FOR ="DELETE_FOR";
+export const SET_Ach ="SET_Ach";
+export const DELETE_Ach ="DELETE_Ach";
+export const DELETE_Con="DELETE_Con";
+export const SET_Con ="SET_Con";
+export const DELETE_gr="DELETE_gr";
+export const SET_gr ="SET_gr";
+export const SET_dash ="SET_dash";
+export const SET_dash2 ="SET_dash2";
+export const SET_dash3 ="SET_dash3";
+export const SET_Acha ="SET_Acha";
+export const SET_sms ="SET_sms";
+
+
+export const SET_accepter ="SET_accepter";
+export const SET_enatt ="SET_enatt";
+export const SET_prixt ="SET_prixt";
+export const SET_pack ="SET_pack";
+export const SET_packyear ="SET_packyear";
+export const SET_smss="SET_smss"

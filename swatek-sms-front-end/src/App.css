@@ -1,0 +1,79 @@
+/*acc*/
+#Acceill{
+    background:rgb(0, 0, 0) ;
+    background: linear-gradient(90deg,rgb(66, 25, 25),rgb(0, 0, 0)100%);
+    min-height:500px;
+}
+#dev{
+    background:rgb(0, 33, 71) ;
+    background: linear-gradient(90deg,rgb(0, 29, 62),rgb(28, 102, 167)100%);
+    min-height:500px;
+}
+/*cards*/
+.card{
+    transition: all 0.5s ease;
+  
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.15);
+}
+/*form*/
+.form{
+    background:rgb(0,101, 219) ;
+    background: linear-gradient(90deg,rgb(30, 29, 29),rgb(254, 43, 43)300%);
+    min-height:500px;
+    
+}
+.carousel-item{
+    min-height: 280px;
+}
+.card-counter{
+    box-shadow: 2px 2px 10px #DADADA;
+    margin: 5px;
+    padding: 20px 10px;
+    background-color: #fff;
+    height: 100px;
+    border-radius: 5px;
+    transition: .3s linear all;
+  }
+
+  .card-counter:hover{
+    box-shadow: 4px 4px 20px #DADADA;
+    transition: .3s linear all;
+  }
+
+  .card-counter.primary{
+    background-color: #007bff;
+    color: #FFF;
+  }
+
+  .card-counter.danger{
+    background-color: #ef5350;
+    color: #FFF;
+  }  
+
+  .card-counter.success{
+    background-color: #66bb6a;
+    color: #FFF;
+  }  
+
+  .card-counter.info{
+    background-color: #26c6da;
+    color: #FFF;
+  }  
+
+  .card-counter i{
+    font-size: 5em;
+    opacity: 0.2;
+  }
+
+  .card-counter .count-numbers{
+    position: absolute;
+    right: auto;
+    top: auto;
+    font-size: 32px;
+
+  }
+ 
+  

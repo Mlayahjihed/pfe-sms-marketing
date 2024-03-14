@@ -1,0 +1,61 @@
+
+.flex-container {
+    display: flex;
+    background-color: #ffffff;
+  }
+  
+  .flex-container > div {
+    color: rgb(7, 6, 6);
+    width: 600px;
+    margin: 50px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  .image-container{
+ width: 400px;
+ height: 400px;
+ background-image:url('https://img.freepik.com/vecteurs-libre/donnees-inform-illustration-concept_114360-864.jpg?w=1380&t=st=1656000650~exp=1656001250~hmac=7cbec957336038528bfcc7167314c548efb0afbb44425fa5ea0a0b6a1950e208') ;
+ background-size: cover;
+  }
+  .button {
+
+    border-radius: 4px;
+    background-color:black;
+    width: 250px;
+	white-space: nowrap;
+	padding: 10px 20px;
+	font-size: 16px;
+	color: white;
+	outline: none;
+	border: 2px solid #fff;
+	cursor: pointer;
+	overflow: hidden;
+	position: relative;
+    border-radius: 15px;
+    height: 70px;
+    border-color: black;
+	
+	}
+    .button:hover {
+
+        background-color: white;
+        color: black;
+        font-size: 1.5rem;
+        border-color: black;
+    }
+    .parg {
+   font-size: 3rem;
+         color: rgb(45, 7, 7);
+         width: 800px;
+         height: 300px;
+         font-style: oblique;
+
+    }
+    .btnn {
+   margin-left: 100px;
+
+    }
+  
+	
+  
