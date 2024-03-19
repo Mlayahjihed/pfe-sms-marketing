@@ -43,7 +43,7 @@ exports.sms = async (req, res, next) => {
     
       if(data.nbrsms>=con.length){
       for (let m = 0; m < con.length; m++) {
-     var url="https://swatek.tn/apisms/sendsms.php?tel=xxxxxxxx&entete=Test1&message=Test2";
+     var url="api sms";
        url =url.replace("xxxxxxxx",con[m]);
        url =url.replace("Test1",req.body.form.entet);
        url =url.replace("Test2",req.body.form.sms);
